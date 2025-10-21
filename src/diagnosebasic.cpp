@@ -114,7 +114,7 @@ QList<PluginSetting> DiagnoseBasic::settings() const
                 true)
          << PluginSetting("check_overwrite",
                           tr("Warn when there are files in the overwrite directory"),
-                          true)
+                          false)
          << PluginSetting("check_font",
                           tr("Warn when the font configuration refers to files that "
                              "aren't installed"),
